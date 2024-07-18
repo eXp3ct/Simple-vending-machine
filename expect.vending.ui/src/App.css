@@ -1,0 +1,9 @@
+.App{
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  row-gap: 5rem;
+  font-size: large;
+}
+
+
+

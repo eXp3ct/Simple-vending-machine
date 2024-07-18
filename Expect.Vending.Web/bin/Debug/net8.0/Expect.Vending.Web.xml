@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Expect.Vending.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Expect.Vending.Web.Controllers.DrinkController">
+            <summary>
+            Контроллер напитков
+            </summary>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.DrinkController.#ctor(Expect.Vending.Data.Interfaces.IUnitOfWork,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="unitOfWork"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.DrinkController.CreateDrink(Expect.Vending.Domain.Dtos.DrinkDto,System.Threading.CancellationToken)">
+            <summary>
+            Создание напитка в бд
+            </summary>
+            <param name="dto">Информация о напитке</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Созданные напиток</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.DrinkController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Получение всех напитков
+            </summary>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Список всех напитков</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.DrinkController.DeleteDrink(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удаление напитка из бд
+            </summary>
+            <param name="id">Id напитка</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Удаленный напиток</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.DrinkController.UpdateDrink(System.Guid,Expect.Vending.Domain.Dtos.DrinkDto,System.Threading.CancellationToken)">
+            <summary>
+            Обновление напитка в бд
+            </summary>
+            <param name="id">Id напитка</param>
+            <param name="dto">Новая информация о напитке</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Обновленный напиток</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.DrinkController.BuyDrink(System.Guid,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Покупка напитка
+            </summary>
+            <param name="id">Id напитка</param>
+            <param name="quantity">Количество</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Обновленный напиток</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.DrinkController.LinkImage(System.Guid,System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Привязка картинки к напитку
+            </summary>
+            <param name="id">Id напитка</param>
+            <param name="imageId">Id картинки</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Напиток</returns>
+        </member>
+        <member name="T:Expect.Vending.Web.Controllers.ImageController">
+            <summary>
+            Контроллер картинок
+            </summary>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.ImageController.#ctor(Expect.Vending.Data.Interfaces.IUnitOfWork,AutoMapper.IMapper,Expect.Vending.Infrastructure.Common.IFileManager)">
+            <summary>
+            
+            </summary>
+            <param name="unitOfWork"></param>
+            <param name="mapper"></param>
+            <param name="imageManager"></param>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.ImageController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Получение всех картинок из бд
+            </summary>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Список всех картинок</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.ImageController.CreateImage(Expect.Vending.Domain.Dtos.ImageDto,System.Threading.CancellationToken)">
+            <summary>
+            Создание картинки в бд
+            </summary>
+            <param name="dto">Информация о картинке</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Созданная картинка</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.ImageController.DeleteImage(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удаление картинки из бд
+            </summary>
+            <param name="id">Id картинки</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Удаленная картинка</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.ImageController.UpdateImage(System.Guid,Microsoft.AspNetCore.Http.IFormFile,System.Threading.CancellationToken)">
+            <summary>
+            Обновление картинки в бд
+            </summary>
+            <param name="id">Id картинки</param>
+            <param name="newFile">Новая картинка</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Обновленная картинка</returns>
+        </member>
+        <member name="M:Expect.Vending.Web.Controllers.ImageController.GetImage(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Получение картинки
+            </summary>
+            <param name="id">Id картинки</param>
+            <param name="cancellationToken">Токен отмены</param>
+            <returns>Картинка</returns>
+        </member>
+        <member name="T:Expect.Vending.Web.Middlewares.ExceptionHandlingMiddleware">
+            <summary>
+            
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="next"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Expect.Vending.Web.Middlewares.ExceptionHandlingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{Expect.Vending.Web.Middlewares.ExceptionHandlingMiddleware})">
+            <summary>
+            
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="next"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Expect.Vending.Web.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Expect.Vending.Web.Program">
+            <summary>
+            Программа
+            </summary>
+        </member>
+        <member name="M:Expect.Vending.Web.Program.Main(System.String[])">
+            <summary>
+            Точка входа в программу
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Expect.Vending.Web.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Создание хоста
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Expect.Vending.Web.Startup">
+            <summary>
+            Конфигурация
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:Expect.Vending.Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Конфигурация
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Expect.Vending.Web.Startup.Configuration">
+            <summary>
+            Объект конфигурации
+            </summary>
+        </member>
+        <member name="M:Expect.Vending.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Настройка http
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:Expect.Vending.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Настройка DI контейнера
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Expect.Vending.Web.SwaggerOptions">
+            <summary>
+            Конфигурация Swagger
+            </summary>
+        </member>
+        <member name="M:Expect.Vending.Web.SwaggerOptions.Configure(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Expect.Vending.Web.AddFileUploadOperationFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Expect.Vending.Web.AddFileUploadOperationFilter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+    </members>
+</doc>

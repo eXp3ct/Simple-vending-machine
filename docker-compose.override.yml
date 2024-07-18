@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  expect.vending.web:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=80
+    ports:
+      - "5051:80"
+  
+  postgres:
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+
+  ui:
+    ports:
+      - "3000:80" 
+

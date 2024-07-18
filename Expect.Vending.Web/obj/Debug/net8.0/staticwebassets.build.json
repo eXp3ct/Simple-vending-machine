@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "v78ydC3TzO8UqqN3HUwGcwEpx+8qt/9iP1cGfbuKvNQ=",
+  "Source": "Expect.Vending.Web",
+  "BasePath": "_content/Expect.Vending.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

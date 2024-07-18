@@ -1,0 +1,63 @@
+.drink {
+    background-color: rgba(0, 173, 14, 0.849);
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgba(252, 252, 63, 0.815);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.drink--inactive {
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 2px solid rgba(169, 169, 169, 0.815);
+}
+
+.drink__name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.drink__image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.drink__quantity,
+.drink__price {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.buy__drink, .edit__drink, .delete__drink {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.buy__drink:hover {
+    background-color: #ffdb4d;
+}
+
+.buy__drink:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+    border-top: 1px solid rgba(128, 128, 128, 0.1);
+}

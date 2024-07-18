@@ -1,0 +1,53 @@
+name: dockercompose5148855042162744614
+services:
+  expect.vending.web:
+    build:
+      context: D:\Projects\C# Projects\Vending
+      dockerfile: Expect.Vending.Web/Dockerfile
+    container_name: vending-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: expectvendingweb
+    networks:
+      network: null
+    ports:
+    - mode: ingress
+      target: 8080
+      published: "5051"
+      protocol: tcp
+  postgres:
+    container_name: vending-postgres
+    environment:
+      PGDATA: /var/lib/postgresql/data/pgdata
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+    image: postgres:15
+    networks:
+      network: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: D:\Projects\C# Projects\Vending
+      target: /var/lib/postgresql/data
+      bind:
+        create_host_path: true
+  ui:
+    build:
+      context: D:\Projects\C# Projects\Vending\expect.vending.ui
+      dockerfile: expect.vending.ui/Dockerfile
+    networks:
+      network: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "3000"
+      protocol: tcp
+networks:
+  network:
+    name: dockercompose5148855042162744614_network
+    driver: bridge

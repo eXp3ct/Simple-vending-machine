@@ -1,0 +1,33 @@
+version: '3.4'
+
+services:
+  expect.vending.web:
+    container_name: vending-api
+    image: ${DOCKER_REGISTRY-}expectvendingweb
+    build:
+      context: .
+      dockerfile: Expect.Vending.Web/Dockerfile
+    networks:
+      - network
+  
+  postgres:
+    container_name: vending-postgres
+    image: postgres:15
+    volumes:
+      - .:/var/lib/postgresql/data
+    networks:
+      - network
+  
+  ui:
+    container_name: vending-ui
+    build: 
+      context: ./expect.vending.ui
+    networks:
+      - network
+
+
+
+networks:
+  network:
+    driver: bridge
+  

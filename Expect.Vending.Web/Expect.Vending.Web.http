@@ -1,0 +1,6 @@
+@Expect.Vending.Web_HostAddress = http://localhost:5051
+
+GET {{Expect.Vending.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

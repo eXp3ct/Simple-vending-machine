@@ -1,0 +1,12 @@
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\bin\Debug\net8.0\Expect.Vending.Domain.deps.json
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\bin\Debug\net8.0\Expect.Vending.Domain.dll
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\bin\Debug\net8.0\Expect.Vending.Domain.pdb
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\Expect.Vending.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\Expect.Vending.Domain.AssemblyInfoInputs.cache
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\Expect.Vending.Domain.AssemblyInfo.cs
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\Expect.Vending.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\Expect.Vending.Domain.dll
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\refint\Expect.Vending.Domain.dll
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\Expect.Vending.Domain.pdb
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\ref\Expect.Vending.Domain.dll
+D:\Projects\C# Projects\Vending\Expect.Vending.Domain\obj\Debug\net8.0\Expect.Vending.Domain.csproj.AssemblyReference.cache

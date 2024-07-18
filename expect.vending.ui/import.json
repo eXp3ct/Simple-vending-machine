@@ -1,0 +1,12 @@
+[
+    {
+        "name": "fanta",
+        "quantity": 46,
+        "price": 43
+    },
+    {
+        "name": "lipton",
+        "quantity": 84,
+        "price": 39
+    }
+]

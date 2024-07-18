@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\C# Projects\\Vending\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|d:\\projects\\c# projects\\vending\\expect.vending.web\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|solutionrelative:expect.vending.web\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|d:\\projects\\c# projects\\vending\\expect.vending.web\\controllers\\drinkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|solutionrelative:expect.vending.web\\controllers\\drinkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|d:\\projects\\c# projects\\vending\\expect.vending.web\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|solutionrelative:expect.vending.web\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA8B138-8985-4BE9-9D0E-EE551802BB66}|..\\Expect.Vending.Infrastructure\\Expect.Vending.Infrastructure.csproj|d:\\projects\\c# projects\\expect.vending.infrastructure\\common\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|d:\\projects\\c# projects\\vending\\expect.vending.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|solutionrelative:expect.vending.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DB6381-6D36-4E9A-AC37-FEF5FF9C1CF1}|Expect.Vending.Domain\\Expect.Vending.Domain.csproj|d:\\projects\\c# projects\\vending\\expect.vending.domain\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4DB6381-6D36-4E9A-AC37-FEF5FF9C1CF1}|Expect.Vending.Domain\\Expect.Vending.Domain.csproj|solutionrelative:expect.vending.domain\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DB6381-6D36-4E9A-AC37-FEF5FF9C1CF1}|Expect.Vending.Domain\\Expect.Vending.Domain.csproj|d:\\projects\\c# projects\\vending\\expect.vending.domain\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4DB6381-6D36-4E9A-AC37-FEF5FF9C1CF1}|Expect.Vending.Domain\\Expect.Vending.Domain.csproj|solutionrelative:expect.vending.domain\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|d:\\projects\\c# projects\\vending\\expect.vending.web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7410717C-52A4-4E60-AF98-01CE00909D24}|Expect.Vending.Web\\Expect.Vending.Web.csproj|solutionrelative:expect.vending.web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\Dockerfile",
+              "RelativeDocumentMoniker": "Expect.Vending.Web\\Dockerfile",
+              "ToolTip": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\Dockerfile",
+              "RelativeToolTip": "Expect.Vending.Web\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-18T19:51:51.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Projects\\Expect.Vending.Infrastructure\\Common\\FileManager.cs",
+              "RelativeDocumentMoniker": "..\\Expect.Vending.Infrastructure\\Common\\FileManager.cs",
+              "ToolTip": "D:\\Projects\\C# Projects\\Expect.Vending.Infrastructure\\Common\\FileManager.cs",
+              "RelativeToolTip": "..\\Expect.Vending.Infrastructure\\Common\\FileManager.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:28:46.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Expect.Vending.Web\\Controllers\\ImageController.cs",
+              "ToolTip": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Expect.Vending.Web\\Controllers\\ImageController.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAcwIQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:25:57.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Drink.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Domain\\Models\\Drink.cs",
+              "RelativeDocumentMoniker": "Expect.Vending.Domain\\Models\\Drink.cs",
+              "ToolTip": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Domain\\Models\\Drink.cs",
+              "RelativeToolTip": "Expect.Vending.Domain\\Models\\Drink.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:23:43.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Domain\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "Expect.Vending.Domain\\Models\\Image.cs",
+              "ToolTip": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Domain\\Models\\Image.cs",
+              "RelativeToolTip": "Expect.Vending.Domain\\Models\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:23:36.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Expect.Vending.Web\\appsettings.json",
+              "ToolTip": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\appsettings.json",
+              "RelativeToolTip": "Expect.Vending.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T07:23:07.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DrinkController.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\Controllers\\DrinkController.cs",
+              "RelativeDocumentMoniker": "Expect.Vending.Web\\Controllers\\DrinkController.cs",
+              "ToolTip": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\Controllers\\DrinkController.cs",
+              "RelativeToolTip": "Expect.Vending.Web\\Controllers\\DrinkController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:16:29.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\Startup.cs",
+              "RelativeDocumentMoniker": "Expect.Vending.Web\\Startup.cs",
+              "ToolTip": "D:\\Projects\\C# Projects\\Vending\\Expect.Vending.Web\\Startup.cs",
+              "RelativeToolTip": "Expect.Vending.Web\\Startup.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:37:32.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

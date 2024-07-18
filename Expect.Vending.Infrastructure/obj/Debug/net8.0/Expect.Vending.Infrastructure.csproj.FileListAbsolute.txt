@@ -1,0 +1,15 @@
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\Expect.Vending.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\Expect.Vending.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\Expect.Vending.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\Expect.Vending.Infrastructure.AssemblyInfo.cs
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\Expect.Vending.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\bin\Debug\net8.0\Expect.Vending.Infrastructure.deps.json
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\bin\Debug\net8.0\Expect.Vending.Infrastructure.dll
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\bin\Debug\net8.0\Expect.Vending.Infrastructure.pdb
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\bin\Debug\net8.0\Expect.Vending.Domain.dll
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\bin\Debug\net8.0\Expect.Vending.Domain.pdb
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\Expect.V.62DE0A0E.Up2Date
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\Expect.Vending.Infrastructure.dll
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\refint\Expect.Vending.Infrastructure.dll
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\Expect.Vending.Infrastructure.pdb
+D:\Projects\C# Projects\Expect.Vending.Infrastructure\obj\Debug\net8.0\ref\Expect.Vending.Infrastructure.dll
